@@ -37,6 +37,21 @@
     border: 3px solid black;
   }
 
+.boxAuto{
+        
+        width: 45%;
+        height: auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 10%;
+        margin-left: 32%;
+        padding: 3%;
+        background: #3a343f;
+        box-shadow: 0em 0em 1em rgb(56, 55, 55);
+        border-radius:20px;
+        border: 3px solid black;
+}
+
 .dateStage{
     font-size: 20px;
 }
@@ -45,7 +60,39 @@
     font-size: 18px;
 }
 
-.gridVt{
-    display: grid;
-    
+
+
+.reductImg{
+    width: 50%;
+}
+
+.boxCertif{
+        
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 3%;
+    background: #3a343f;
+    box-shadow: 0em 0em 1em rgb(56, 55, 55);
+    border-radius:20px;
+    border: 3px solid black;
+}
+
+.titreVt{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.descriptionVt{
+    font-size: 20px;
+    margin: 2% 15%;
+    text-align: center;
+}
+
+.btnVeille{
+    width: 30%;
 }
