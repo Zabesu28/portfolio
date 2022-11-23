@@ -1,0 +1,110 @@
+.title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.me{
+    font-size: 20px;
+    margin-left: 50%;
+    margin-right: 20%;
+}
+
+
+
+.tele{
+   margin-left: 50%;
+    position: relative;
+    font-size: 20px;
+}
+
+.box {
+    position: fixed;
+    width: 35%;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 32%;
+    padding: 3%;
+    background: #d2c9da;
+    box-shadow: 0em 0em 1em rgb(176, 167, 167);
+    border-radius:20px;
+    border: 3px solid black;
+  }
+
+.boxAuto{
+        
+        width: 45%;
+        height: auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 10%;
+        margin-left: 32%;
+        padding: 3%;
+        background: #d2c9da;
+        box-shadow: 0em 0em 1em rgb(176, 167, 167);
+        border-radius:20px;
+        border: 3px solid black;
+}
+
+.dateStage{
+    font-size: 20px;
+}
+
+.textStage{
+    font-size: 18px;
+}
+
+
+
+.reductImg{
+    width: 50%;
+}
+
+.boxCertif{
+        
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 3%;
+    background: #d2c9da;
+    box-shadow: 0em 0em 1em rgb(176, 167, 167);
+    border-radius:20px;
+    border: 3px solid black;
+}
+
+.titreVt{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.descriptionVt{
+    font-size: 20px;
+    margin: 2% 15%;
+    text-align: center;
+}
+
+.btnVeille{
+    width: 30%;
+    height: 30%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.fixImg{
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    width: 250px;
+    height: 250px;
+}
+
+.vrIcon{
+    width: 100px;
+    height: 100px;
+}
