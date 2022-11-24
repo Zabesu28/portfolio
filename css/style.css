@@ -92,7 +92,8 @@
 .btnVeille{
     width: 30%;
     height: 30%;
-    padding: 3%;
+    padding: 2%;
+    margin-top: 2%;
     font-size: 20px;
 }
 
