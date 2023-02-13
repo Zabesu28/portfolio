@@ -191,9 +191,7 @@
     padding : 6px 50px;
     
   }
-  .list-item li:hover {
-    background-color: rgb(31, 28, 180);
-  }
+
 
   .list-item a.active{
     text-decoration:underline;
