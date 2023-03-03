@@ -12,7 +12,7 @@
 .me{
     font-size: 20px;
     margin-left: 50%;
-    margin-right: 20%;
+    margin-right: 5%;
 }
 
 
@@ -21,16 +21,17 @@
    margin-left: 50%;
     position: relative;
     font-size: 20px;
+    color: #350842;
 }
 
 .box {
-    position: fixed;
-    width: 35%;
+   
+    width: 55%;
     height: auto;
     margin-bottom: 5%;
     margin-top: 6%;
-    margin-right: 10%;
-    margin-left: 32%;
+    margin-right: 20%;
+    margin-left: 20%;
     padding: 3%;
     background: #b78adf;
     box-shadow: 0em 0em 1em rgb(75, 20, 102);
@@ -55,7 +56,7 @@
 
 .boxAuto{
         
-        width: 45%;
+        width: 50%;
         height: auto;
         margin-bottom: 5%;
         margin-top: 6%;
@@ -119,9 +120,9 @@
 }
 
 .fixImg{
-    position: fixed;
-    top:35%;
-    left: 26%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
     width: 250px;
     height: 250px;
 }
@@ -177,6 +178,7 @@
     float: left;
     margin-right: 25px;
     margin-top: 17px;
+    margin-left: 70px;
   }
   .list-item li{
     float: left;
@@ -188,7 +190,7 @@
   }
   .list-item li a {
     color: #EEE;
-    padding : 6px 50px;
+    padding : 6px 30px;
     
   }
 
@@ -224,7 +226,7 @@
   
   /*   Start media query   */
   
-  @media (max-width: 1309px) {
+  /* @media (max-width: 1309px) {
     .icon {
       display: block;
       width: 100%;
@@ -247,9 +249,21 @@
       border-bottom: 1px solid #333;
       float: none;
     }
-  }
+  } */
   
 
 .moi{
+  position: fixed;
+  top: 4%;
+  left: 1%;
   font-size: 20px;
+}
+
+.lRapport{
+  text-align: center;
+  color: #350842;
+}
+.imgAP{
+  width: 150px;
+  margin-bottom: 2%;
 }
