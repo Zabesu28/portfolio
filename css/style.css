@@ -163,7 +163,7 @@
   
   nav {
     height: 80px;
-    width: 110%;
+    width: 200%;
     background-color: #3c1555;
     border-bottom: 2px solid #000000
   }
@@ -254,8 +254,8 @@
 
 .moi{
   position: fixed;
-  top: 4%;
-  left: 1%;
+  top: 1.5em;
+  left: 1em;
   font-size: 20px;
 }
 
