@@ -163,7 +163,7 @@
   
   nav {
     height: 80px;
-    width: 200%;
+    width: 150em;
     background-color: #3c1555;
     border-bottom: 2px solid #000000
   }
@@ -182,7 +182,7 @@
   }
   .list-item li{
     float: left;
-    margin: 13px 60px;
+    margin: 13px 3em;
     
     font-size: 18px;
     border-radius: 3px;
