@@ -25,7 +25,7 @@
 }
 
 .box {
-   
+  transition: transform .2s;
     width: 55%;
     height: auto;
     margin-bottom: 5%;
@@ -37,6 +37,13 @@
     box-shadow: 0em 0em 1em rgb(75, 20, 102);
     border-radius:20px;
     border: 3px solid black;
+  }
+
+  .box:hover {
+
+    transform: scale(1.1); 
+    z-index: 1;
+    
   }
 
 .boxIndex {
@@ -55,7 +62,7 @@
   }
 
 .boxAuto{
-        
+        transition: transform .2s;
         width: 50%;
         height: auto;
         margin-bottom: 5%;
@@ -67,6 +74,29 @@
     box-shadow: 0em 0em 1em rgb(75, 20, 102);
         border-radius:20px;
         border: 3px solid black;
+        z-index: -1;
+}
+
+.boxIdx{
+  width: 50%;
+  height: auto;
+  margin-bottom: 5%;
+  margin-top: 6%;
+  margin-right: 10%;
+  margin-left: 22%;
+  padding: 3%;
+  background: #b78adf;
+box-shadow: 0em 0em 1em rgb(75, 20, 102);
+  border-radius:20px;
+  border: 3px solid black;
+  z-index: -1;
+}
+
+.boxAuto:hover {
+
+  transform: scale(1.1); 
+  z-index: 1;
+  
 }
 
 .dateStage{
@@ -96,6 +126,12 @@
     box-shadow: 0em 0em 1em rgb(75, 20, 102);
     border-radius:20px;
     border: 3px solid black;
+    transition: transform .2s;
+}
+
+.boxCertif:hover{
+  transform: scale(1.1); 
+  z-index: 1;
 }
 
 .titreVt{
@@ -121,7 +157,7 @@
 
 .fixImg{
     position: absolute;
-    top: 25em;
+    top: 50%;
     left: 25%;
     width: 18em;
     height: 18em;
@@ -168,6 +204,7 @@
     background-color: #350842;
     height: 10px;
     position: fixed;
+    z-index:100;
   }
   
   /*   Start navigation bar   */
@@ -176,7 +213,8 @@
     height: 80px;
     width: 150em;
     background-color: #3c1555;
-    border-bottom: 2px solid #000000
+    border-bottom: 2px solid #000000;
+    
   }
   .name {
     padding: 25px;
@@ -316,8 +354,13 @@
   border: 3px solid black;
 }
 
-.box {
+.boxAuto:hover {
+  transform: scale(1.0); 
   z-index: 1;
+}
+
+.boxIdx{
+        
   width: 90%;
   height: auto;
   margin-bottom: 5%;
@@ -330,6 +373,32 @@
   border-radius:20px;
   border: 3px solid black;
 }
+
+.boxIdx:hover {
+  transform: scale(1.0); 
+  z-index: 1;
+}
+
+
+.box {
+  width: 90%;
+  height: auto;
+  margin-bottom: 5%;
+  margin-top: 6%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 3%;
+  background: #b78adf;
+  box-shadow: 0em 0em 1em rgb(75, 20, 102);
+  border-radius:20px;
+  border: 3px solid black;
+}
+
+.box:hover {
+  transform: scale(1.0); 
+  z-index: 1;
+}
+
 
 .boxCertif{
         
@@ -345,6 +414,12 @@
   border-radius:20px;
   border: 3px solid black;
 }
+
+.boxCertif:hover {
+  transform: scale(1.0); 
+  z-index: 1;
+}
+
     
     nav {
       height: 80px;
@@ -501,3 +576,4 @@
   width: 150px;
   margin-bottom: 2%;
 }
+
