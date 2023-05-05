@@ -1,8 +1,35 @@
 .background{
-    background: repeat url(../img/cool-background2.png);
+    background:#1F2833;
+    background-image: url(../img/background.jpg);
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;	
+}
 
+p, h1{
+  color: #C5C6C7
+}
+
+button{
+  background-color: #0B0C10;
+  color: #C5C6C7;
+  border-color: #66FCF1;
+}
+
+button:hover{
+  color: #fff;
+  border-color: #2beaf8
+}
+
+a{
+  color: #66FCF1;
+}
+
+a:hover{
+  color:rgb(107, 99, 226)
+}
 .title{
     text-align: center;
     margin-top: 5%;
@@ -11,18 +38,12 @@
 
 .me{
     font-size: 20px;
-    margin-left: 50%;
     margin-right: 5%;
 }
 
 
 
-.tele{
-   margin-left: 50%;
-    position: relative;
-    font-size: 20px;
-    color: #350842;
-}
+
 
 .box {
   transition: transform .2s;
@@ -33,10 +54,10 @@
     margin-right: 20%;
     margin-left: 20%;
     padding: 3%;
-    background: #b78adf;
-    box-shadow: 0em 0em 1em rgb(75, 20, 102);
+    background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
     border-radius:20px;
-    border: 3px solid black;
+    border: 3px solid #2beaf8;
   }
 
   .box:hover {
@@ -55,10 +76,10 @@
     margin-right: 20%;
     margin-left: 22%;
     padding: 2%;
-    background: #b78adf;
-    box-shadow: 0em 0em 1em rgb(75, 20, 102);
+    background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
     border-radius:20px;
-    border: 3px solid black;
+    border: 3px solid #2beaf8;
   }
 
 .boxAuto{
@@ -70,10 +91,10 @@
         margin-right: 10%;
         margin-left: 22%;
         padding: 3%;
-        background: #b78adf;
-    box-shadow: 0em 0em 1em rgb(75, 20, 102);
+        background: #0B0C10;
+      box-shadow: 0em 0em 1em #167279;
         border-radius:20px;
-        border: 3px solid black;
+        border: 3px solid #2beaf8;
         z-index: -1;
 }
 
@@ -85,10 +106,10 @@
   margin-right: 10%;
   margin-left: 22%;
   padding: 3%;
-  background: #b78adf;
-box-shadow: 0em 0em 1em rgb(75, 20, 102);
+  background: #0B0C10;
+box-shadow: 0em 0em 1em #167279;
   border-radius:20px;
-  border: 3px solid black;
+  border: 3px solid #2beaf8;
   z-index: -1;
 }
 
@@ -113,8 +134,8 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     width: 50%;
 }
 
-.boxCertif{
-        
+
+.boxCertif{  
     width: auto;
     height: auto;
     margin-bottom: 5%;
@@ -122,15 +143,16 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     margin-right: 25%;
     margin-left: 25%;
     padding: 3%;
-    background: #b78adf;
-    box-shadow: 0em 0em 1em rgb(75, 20, 102);
+    background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
     border-radius:20px;
-    border: 3px solid black;
+    border: 3px solid #2beaf8;
     transition: transform .2s;
 }
 
 .boxCertif:hover{
   transform: scale(1.1); 
+  transform: rotate(-1deg);
   z-index: 1;
 }
 
@@ -152,11 +174,11 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     padding: 2%;
     margin-top: 2%;
     font-size: 20px;
-    background-color: #b78adf;
+    background: #0B0C10;
 }
 
 .fixImg{
-    position: absolute;
+  
     top: 50%;
     left: 25%;
     width: 18em;
@@ -212,8 +234,9 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   nav {
     height: 80px;
     width: 150em;
-    background-color: #3c1555;
+    background-color: #0B0C10;
     border-bottom: 2px solid #000000;
+    
     
   }
   .name {
@@ -238,7 +261,7 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     transition: all .4s ease-in-out;
   }
   .list-item li a {
-    color: #EEE;
+    color: #66FCF1;
     padding : 6px 30px;
     
   }
@@ -263,7 +286,7 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   .toggle {
     float: right;
     margin: 20px;
-    color: #EEE;
+    color:#2beaf8;
     font-size: 30px;
     border: 1px solid #EEE;
     padding: 0px 5px;
@@ -289,6 +312,11 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   
   @media (max-width: 1309px) {
 
+    .wrapper {
+      display: grid;
+      grid-template-columns: 100%;	
+    }
+
     .row1{
       display: block;
       align-items: center;
@@ -306,7 +334,7 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     padding: 2%;
     margin-top: 2%;
     font-size: 20px;
-    background-color: #b78adf;
+    background: #0B0C10;
 }
     
 .fixImg{
@@ -333,10 +361,10 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   margin-right: 5%;
   margin-left: 5%;
   padding: 2%;
-  background: #b78adf;
-  box-shadow: 0em 0em 1em rgb(75, 20, 102);
-  border-radius:20px;
-  border: 3px solid black;
+  background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
+    border-radius:20px;
+    border: 3px solid #2beaf8;
 }
 
 .boxAuto{
@@ -348,10 +376,10 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   margin-right: 5%;
   margin-left: 5%;
   padding: 3%;
-  background: #b78adf;
-  box-shadow: 0em 0em 1em rgb(75, 20, 102);
-  border-radius:20px;
-  border: 3px solid black;
+  background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
+    border-radius:20px;
+    border: 3px solid #2beaf8;
 }
 
 .boxAuto:hover {
@@ -368,10 +396,10 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   margin-right: 5%;
   margin-left: 5%;
   padding: 3%;
-  background: #b78adf;
-  box-shadow: 0em 0em 1em rgb(75, 20, 102);
-  border-radius:20px;
-  border: 3px solid black;
+  background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
+    border-radius:20px;
+    border: 3px solid #2beaf8;
 }
 
 .boxIdx:hover {
@@ -388,10 +416,10 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   margin-right: 5%;
   margin-left: 5%;
   padding: 3%;
-  background: #b78adf;
-  box-shadow: 0em 0em 1em rgb(75, 20, 102);
-  border-radius:20px;
-  border: 3px solid black;
+  background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
+    border-radius:20px;
+    border: 3px solid #2beaf8;
 }
 
 .box:hover {
@@ -409,10 +437,10 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
   margin-right: 15%;
   margin-left: 15%;
   padding: 3%;
-  background: #b78adf;
-  box-shadow: 0em 0em 1em rgb(75, 20, 102);
-  border-radius:20px;
-  border: 3px solid black;
+  background: #0B0C10;
+    box-shadow: 0em 0em 1em #167279;
+    border-radius:20px;
+    border: 3px solid #2beaf8;
 }
 
 .boxCertif:hover {
@@ -424,8 +452,8 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
     nav {
       height: 80px;
       width: 100em;
-      background-color: #3c1555;
-      border-bottom: 2px solid #000000
+      background-color: #0B0C10;
+      border-bottom: 2px solid #000000;
     }
     .icon {
       display: block;
@@ -510,8 +538,8 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
       }
       #menu-demo2 li:last-child{
       background-color: #181a14;
-      background-image:-webkit-linear-gradient(top, #3f420e 0%, #becc46 100%);
-      background-image:linear-gradient(to bottom, #3f420e 0%, #becc46 100%);
+      background-image:-webkit-linear-gradient(top, #1F2833 0%, #1F2833 100%);
+      background-image:linear-gradient(to bottom, #1F2833 0%, #1F2833 100%);
       }
       /* background des liens sous menus */
       #menu-demo2 li:first-child li{
@@ -524,7 +552,7 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
       background:#9F391A;
       }
       #menu-demo2 li:last-child li{
-      background:#330244;
+        background: #0B0C10;
       }
       /* background des liens menus et sous menus au survol */
       #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
@@ -537,27 +565,34 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
       background:#F6AD1A;
       }
       #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-        background-image:-webkit-linear-gradient(top, #3f420e 0%, #becc46 100%);
-        background-image:linear-gradient(to bottom, #3f420e 0%, #becc46 100%);
+        background-image:-webkit-linear-gradient(top, #1c232b 0%, #191f27 100%);
+        background-image:linear-gradient(to bottom, #212831 0%, #161c22 100%);
+        border-color: #2beaf8;
       }
       /* les a href */
       #menu-demo2 a{
       text-decoration:none;
       display:block;
       padding:8px 45px;
-      color:#fff;
+      color:#2beaf8;
       font-family:arial;
       }
       #menu-demo2 ul a{
         padding:8px 0px;
       }
       #menu-demo2 li:hover li a{
-      color:#fff;
+      color:#2beaf8;
       text-transform:inherit;
       }
       #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-      color:#000;
+        color:#0eedfd;
       }
+
+      #menu-demo2 li:hover a.active, a.active{
+        text-decoration:underline;
+        color:rgb(107, 99, 226)
+       }
+      
   }
   
 
@@ -570,7 +605,6 @@ box-shadow: 0em 0em 1em rgb(75, 20, 102);
 
 .lRapport{
   text-align: center;
-  color: #350842;
 }
 .imgAP{
   width: 150px;
