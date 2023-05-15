@@ -224,11 +224,13 @@ box-shadow: 0em 0em 1em #167279;
   /*   Start navigation bar   */
   
   header {
+    position: fixed;
     height: 80px;
     width: 100%;
     background-color: #0B0C10;
     border-bottom: 2px solid #000000;
     display: flex;
+    z-index: 100;
   }
 
   nav{
