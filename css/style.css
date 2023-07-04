@@ -1,6 +1,7 @@
+
 .background{
     background:#1F2833;
-    background-image: url(../img/background.jpg );
+    background-image: url(../img/background.jpg );  
 }
 
 .wrapper {
@@ -40,10 +41,6 @@ a:hover{
     font-size: 20px;
     margin-right: 5%;
 }
-
-
-
-
 
 .box {
   transition: transform .2s;
@@ -178,7 +175,8 @@ box-shadow: 0em 0em 1em #167279;
 }
 
 .fixImg{
-  
+  border: 3px solid #2beaf8;
+  border-radius: 100%;
     top: 50%;
     left: 25%;
     width: 18em;
@@ -608,4 +606,3 @@ box-shadow: 0em 0em 1em #167279;
   width: 150px;
   margin-bottom: 2%;
 }
-
